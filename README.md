@@ -1,8 +1,16 @@
 # 🎬 UltraCompress Video Compressor
 
-> **100% In-Browser Video Compression & Format Conversion (Zero Cloud Uploads)**
+> **An official [Evostackr](https://github.com/Evostackr) product, crafted with ❤️ by [@UjwalAnandpro](https://github.com/UjwalAnandpro)**
 
 UltraCompress Video is a modern, high-performance web application built with **React**, **Vite**, **FFmpeg.wasm (WebAssembly)**, and **WebCodecs**. It allows users to compress, downscale, trim, and convert video files locally inside their browser with total privacy and zero server uploads.
+
+---
+
+## ⚡ Product Info & Branding
+
+- **Organization**: [Evostackr](https://github.com/Evostackr)
+- **Creator & Lead Developer**: [Ujwal Anand (@UjwalAnandpro)](https://github.com/UjwalAnandpro)
+- **Repository**: [https://github.com/Evostackr/ultra-video-compressor](https://github.com/Evostackr/ultra-video-compressor)
 
 ---
 
@@ -35,8 +43,8 @@ UltraCompress Video is a modern, high-performance web application built with **R
 
 ```bash
 # Clone the repository
-git clone <your-repository-url>
-cd video-compressor
+git clone https://github.com/Evostackr/ultra-video-compressor.git
+cd ultra-video-compressor
 
 # Install dependencies
 npm install
@@ -59,6 +67,8 @@ Open [http://localhost:5173/](http://localhost:5173/) in your web browser.
 
 ---
 
-## 📜 License
+## 👨‍💻 Credits & License
 
-MIT License. Feel free to use and modify!
+Created and maintained by **[Evostackr](https://github.com/Evostackr)** • Made by **[Ujwal Anand (@UjwalAnandpro)](https://github.com/UjwalAnandpro)**.
+
+MIT License.

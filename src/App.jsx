@@ -211,8 +211,13 @@ export default function App() {
       )}
 
       {/* Footer */}
-      <footer style={{ borderTop: '1px solid var(--border-color)', padding: '1.5rem', textAlign: 'center', color: 'var(--text-dim)', fontSize: '0.8rem', marginTop: '3rem' }}>
-        <p>UltraCompress Video • 100% Client-Side Private Video Processing • Powered by FFmpeg.wasm & WebCodecs</p>
+      <footer style={{ borderTop: '1px solid var(--border-color)', padding: '1.5rem', textAlign: 'center', color: 'var(--text-dim)', fontSize: '0.82rem', marginTop: '3rem' }}>
+        <p style={{ marginBottom: '0.3rem' }}>
+          <strong>UltraCompress Video</strong> • An official <a href="https://github.com/Evostackr" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary-emerald)', textDecoration: 'none', fontWeight: '700' }}>Evostackr</a> Product
+        </p>
+        <p style={{ color: 'var(--text-muted)' }}>
+          Crafted with ❤️ by <a href="https://github.com/UjwalAnandpro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary-cyan)', textDecoration: 'none', fontWeight: '600' }}>Ujwal Anand (@UjwalAnandpro)</a>
+        </p>
       </footer>
 
     </div>

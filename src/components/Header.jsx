@@ -1,5 +1,5 @@
 import React from 'react';
-import { Video, ShieldCheck, Cpu, HelpCircle, Sparkles } from 'lucide-react';
+import { Video, ShieldCheck, Cpu, HelpCircle, Sparkles, Code2 } from 'lucide-react';
 
 export default function Header({ isWasmLoaded, engineType, setEngineType, onOpenGuide }) {
   return (
@@ -12,8 +12,8 @@ export default function Header({ isWasmLoaded, engineType, setEngineType, onOpen
             <div 
               style={{ 
                 background: 'var(--gradient-emerald)', 
-                width: '42px', 
-                height: '42px', 
+                width: '44px', 
+                height: '44px', 
                 borderRadius: '12px', 
                 display: 'flex', 
                 alignItems: 'center', 
@@ -24,14 +24,19 @@ export default function Header({ isWasmLoaded, engineType, setEngineType, onOpen
               <Video size={24} color="#04120e" />
             </div>
             <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
                 <h1 style={{ fontSize: '1.4rem', fontWeight: '800', letterSpacing: '-0.02em', background: 'linear-gradient(135deg, #ffffff 0%, #d1d5db 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                   UltraCompress Video
                 </h1>
                 <span className="badge-pill badge-emerald">v2.5</span>
+                <span className="badge-pill badge-purple" style={{ fontSize: '0.72rem' }}>
+                  Evostackr Product
+                </span>
               </div>
-              <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-                100% In-Browser Video Compression & Transcoding
+              <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '0.4rem', marginTop: '2px' }}>
+                <span>100% In-Browser Compression</span>
+                <span>•</span>
+                <span>Made by <a href="https://github.com/UjwalAnandpro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary-cyan)', textDecoration: 'none', fontWeight: '600' }}>@UjwalAnandpro</a></span>
               </p>
             </div>
           </div>
